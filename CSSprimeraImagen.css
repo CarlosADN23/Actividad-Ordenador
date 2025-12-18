@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #78f2e1;
+}
+
+header {
+  background-color: #ff4300;
+  color: white;
+  text-align: center;
+  padding: 30px 0 30px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+nav {
+  background-color: #a7f8a7;
+  padding: 20px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: disc inside;
+}
+
+nav ul li {
+  margin-bottom: 8px;
+}
+
+nav ul li a {
+  color: #1111ff;
+  text-decoration: underline;
+  font-size: 1.2em;
+}
+
+/* Sección piezas */
+section#placa-base {
+  margin: 30px;
+  padding: 10px;
+}
+section#procesador {
+  margin: 30px;
+  padding: 10px;
+}
+
+section#memoria {
+  margin: 30px;
+  padding: 10px;
+}
+
+section#almacenamiento {
+  margin: 30px;
+  padding: 10px;
+}
+
+section#torre {
+  margin: 30px;
+  padding: 10px;
+}
+
+section#fuente {
+  margin: 30px;
+  padding: 10px;
+}
+
+section#monitor{
+  margin: 30px;
+  padding: 10px;
+}
+
+
+
+/* Título de la sección */
+.section-title {
+  background-color: #ddd;
+  color: #222;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 10px 0;
+  text-align: center;
+  border: 5px solid orange;
+  margin-bottom: 20px;
+}
++
+
+/* Descripción con borde rojo */
+.descripcion {
+  background-color: #78f2e1;
+  border: 4px solid red;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 1.1em;
+}
+
+/* Imagen de la pieza */
+.imagen-placa {
+  text-align: left;
+  border: 5px solid purple;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/* Características título */
+.caracteristicas-titulo {
+  background-color: #78f2e1;
+  border-top: 4px solid #18a7de;
+  border-bottom: 4px solid #18a7de;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px 0;
+  margin: 10px 0 0 0;
+}
+
+/* Características lista */
+.caracteristicas-lista {
+  background-color: yellow;
+  border: 4px solid #000;
+  font-size: 1.1em;
+  padding: 10px 25px 10px 25px;
+  margin-bottom: 18px;
+}
+
+/* Precio título */
+.precio-titulo {
+  background-color: #78f2e1;
+  border-top: 4px solid #18a7de;
+  border-bottom: 4px solid #18a7de;
+  font-weight: bold;
+  font-size: 1.3em;
+  padding: 10px 0;
+  margin: 0 0 0 0;
+}
+
+/* Precio info */
+.precio-info {
+  border: 4px solid red;
+  padding: 13px;
+  font-size: 1.1em;
+  background-color: #78f2e1;
+}
+
+.precio-info a {
+  color: #0073e6;
+  text-decoration: underline;
+}
